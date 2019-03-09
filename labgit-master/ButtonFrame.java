@@ -7,11 +7,11 @@ class ButtonListener implements ActionListener
 	int count = 0;
 	public void actionPerformed(ActionEvent e)
 	{
-	    System.out.println("Button pressed (" + count++ + ") " + 
+	    System.out.println("Edit here.....Button pressed (" + count++ + ") " + 
 			       e.getActionCommand());
 	}
 }
-
+//simple change
 class ButtonCloser extends WindowAdapter
 {
     public void windowClosing(WindowEvent we)
